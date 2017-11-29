@@ -5,3 +5,9 @@
 /.vs
 /Source/.vs/ApiGenerator/v15
 *.suo
+/Source/.vs/config
+/Source/Foundation/ApiGenerator/code/obj
+*.user
+/Source/Foundation/Serialization/code/obj
+/Source/node_modules
+/Source/packages

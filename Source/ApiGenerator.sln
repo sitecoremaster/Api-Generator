@@ -4,13 +4,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{A377A466-FEC2-42F4-BDE5-33E512A69E13}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{E61E8535-96BC-4CAD-B3D8-245C4086E1BA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{D7082305-F60D-46D3-BD86-8F5BB644B9AC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGenerator", "ApiGenerator", "{A7F78F6B-F62E-4E42-A468-A6E69467CE23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{7A6DA70A-36A0-451D-A7EB-DFC015BACEDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMaster.Foundation.ApiGenerator", "Foundation\ApiGenerator\code\SitecoreMaster.Foundation.ApiGenerator.csproj", "{8EB43CA3-9B18-45A8-B50F-52758525F7F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMaster.Foundation.Serialization", "Foundation\Serialization\code\SitecoreMaster.Foundation.Serialization.csproj", "{2B571CCC-BDB8-4059-A46A-5F23E0D415B1}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EB43CA3-9B18-45A8-B50F-52758525F7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB43CA3-9B18-45A8-B50F-52758525F7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB43CA3-9B18-45A8-B50F-52758525F7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB43CA3-9B18-45A8-B50F-52758525F7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B571CCC-BDB8-4059-A46A-5F23E0D415B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B571CCC-BDB8-4059-A46A-5F23E0D415B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B571CCC-BDB8-4059-A46A-5F23E0D415B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B571CCC-BDB8-4059-A46A-5F23E0D415B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7F78F6B-F62E-4E42-A468-A6E69467CE23} = {E61E8535-96BC-4CAD-B3D8-245C4086E1BA}
+		{7A6DA70A-36A0-451D-A7EB-DFC015BACEDC} = {E61E8535-96BC-4CAD-B3D8-245C4086E1BA}
+		{8EB43CA3-9B18-45A8-B50F-52758525F7F0} = {A7F78F6B-F62E-4E42-A468-A6E69467CE23}
+		{2B571CCC-BDB8-4059-A46A-5F23E0D415B1} = {7A6DA70A-36A0-451D-A7EB-DFC015BACEDC}
 	EndGlobalSection
 EndGlobal
