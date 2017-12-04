@@ -11,3 +11,6 @@
 /Source/Foundation/Serialization/code/obj
 /Source/node_modules
 /Source/packages
+/Source/Foundation/ORM/code/obj/Debug
+/Source/Foundation/Search/code/obj/Debug
+/Source/libraries

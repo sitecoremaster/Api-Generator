@@ -1,0 +1,14 @@
+﻿---
+ID: "71c97217-4614-4641-8988-7a4624b38d3e"
+Parent: "cb71997c-6c20-4c2b-a818-a5ab1d4b4ba6"
+Template: "3a89bc3a-c340-4443-b41a-47b97155d026"
+Path: /sitecore/system/Settings/Foundation/ApiGenerators/Configurations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171129T014825Z

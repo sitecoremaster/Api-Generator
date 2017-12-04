@@ -1,0 +1,20 @@
+﻿---
+ID: "a0674ba5-544a-4493-a621-0c2983dd9282"
+Parent: "37ea0043-fd11-4dde-9b18-3c3c00b85216"
+Template: "a7dc8f8e-f004-46c8-9e31-b2ba852e3df3"
+Path: "/sitecore/system/Settings/Foundation/ApiGenerators/Configurations/http-verbs/DELETE"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171201T230253Z
+    - ID: "2c9e1974-f4a6-4dd1-9e7a-d3efa85ae339"
+      Hint: Key
+      Value: DELETE
+    - ID: "dd48a3bd-d48d-4109-8519-037a30a52257"
+      Hint: Value
+      Value: "{A0674BA5-544A-4493-A621-0C2983DD9282}"

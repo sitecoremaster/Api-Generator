@@ -1,0 +1,29 @@
+﻿---
+ID: "ff17418a-b4e0-4e53-8d2f-159596a7de7a"
+Parent: "461a7e0d-720b-421e-9c0f-31478eab1af7"
+Template: "cef71ccb-6fbb-4644-8ff9-db2ba249f41b"
+Path: /sitecore/system/Settings/Foundation/ApiGenerators/Blogs/Articles List
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f3615df-4746-496f-abb5-5eb1af41e7b6"
+      Hint: Summary
+      Value: Gets a Collection of Article Items
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171201T231853Z
+    - ID: "516b8d61-b694-47ad-b8b0-80590cf9a622"
+      Hint: Title
+      Value: Article List
+    - ID: "6c20f12b-4101-4613-ad14-7a968cbc2491"
+      Hint: Output
+      Value: "{D78F2BD6-6D1C-4E95-9883-E1EA2AB6EE2D}"
+    - ID: "b8fbfe57-a5a7-4971-b7c5-e742e266c4cd"
+      Hint: EndpointPath
+      Value: /articles/list
+    - ID: "c1aded6c-bb92-4620-aea9-3125d1abcd8c"
+      Hint: HttpVerb
+      Value: "{BC1BA4C2-E6A5-4D1D-BE7F-2F34A8F3608C}"

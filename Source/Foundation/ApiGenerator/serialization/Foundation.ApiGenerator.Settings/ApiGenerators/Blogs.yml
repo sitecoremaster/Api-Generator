@@ -1,0 +1,23 @@
+﻿---
+ID: "461a7e0d-720b-421e-9c0f-31478eab1af7"
+Parent: "cb71997c-6c20-4c2b-a818-a5ab1d4b4ba6"
+Template: "c07ec43f-ef3a-4073-b6cd-0f3ff6eaf6f5"
+Path: /sitecore/system/Settings/Foundation/ApiGenerators/Blogs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11b0aa9c-aed0-4402-80fb-792d4e1a0314"
+      Hint: Version
+      Value: 1.0.0
+    - ID: "22b40dd0-230e-4576-91e0-94160fa1288c"
+      Hint: Name
+      Value: Media
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171129T013802Z
+    - ID: "872241e0-a98b-4102-8673-b89d015d4a19"
+      Hint: Description
+      Value: A representation of the Media Requests Api

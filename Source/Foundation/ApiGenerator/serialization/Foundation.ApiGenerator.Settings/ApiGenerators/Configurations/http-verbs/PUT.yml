@@ -1,0 +1,20 @@
+﻿---
+ID: "9afb496f-2c87-4f01-83e2-2c9fd9ae8afd"
+Parent: "37ea0043-fd11-4dde-9b18-3c3c00b85216"
+Template: "a7dc8f8e-f004-46c8-9e31-b2ba852e3df3"
+Path: "/sitecore/system/Settings/Foundation/ApiGenerators/Configurations/http-verbs/PUT"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171201T230246Z
+    - ID: "2c9e1974-f4a6-4dd1-9e7a-d3efa85ae339"
+      Hint: Key
+      Value: PUT
+    - ID: "dd48a3bd-d48d-4109-8519-037a30a52257"
+      Hint: Value
+      Value: "{9AFB496F-2C87-4F01-83E2-2C9FD9AE8AFD}"

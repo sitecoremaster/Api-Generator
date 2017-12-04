@@ -1,0 +1,20 @@
+﻿---
+ID: "bc1ba4c2-e6a5-4d1d-be7f-2f34a8f3608c"
+Parent: "37ea0043-fd11-4dde-9b18-3c3c00b85216"
+Template: "a7dc8f8e-f004-46c8-9e31-b2ba852e3df3"
+Path: "/sitecore/system/Settings/Foundation/ApiGenerators/Configurations/http-verbs/GET"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171201T230235Z
+    - ID: "2c9e1974-f4a6-4dd1-9e7a-d3efa85ae339"
+      Hint: Key
+      Value: GET
+    - ID: "dd48a3bd-d48d-4109-8519-037a30a52257"
+      Hint: Value
+      Value: "{BC1BA4C2-E6A5-4D1D-BE7F-2F34A8F3608C}"

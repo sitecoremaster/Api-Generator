@@ -1,0 +1,17 @@
+﻿---
+ID: "69ffa46d-54e3-45f2-afed-97b1db652580"
+Parent: "461a7e0d-720b-421e-9c0f-31478eab1af7"
+Template: "05ce05aa-4a15-4a49-943d-3b2699fef8dc"
+Path: /sitecore/system/Settings/Foundation/ApiGenerators/Blogs/Article
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171129T015525Z
+    - ID: "8a8c8a02-51aa-4854-a4fd-257aed55371e"
+      Hint: Title
+      Value: Media

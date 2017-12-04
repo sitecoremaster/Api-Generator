@@ -1,0 +1,20 @@
+﻿---
+ID: "5dce055c-b9d0-4e00-8d25-52a1ac312d66"
+Parent: "69ffa46d-54e3-45f2-afed-97b1db652580"
+Template: "261f68d1-531c-4d9e-b051-8ab535172acb"
+Path: /sitecore/system/Settings/Foundation/ApiGenerators/Blogs/Article/Id
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171129T015632Z
+    - ID: "3843bb2c-6304-4a7e-b638-02f2a264fe52"
+      Hint: Title
+      Value: Id
+    - ID: "51a5163b-8f95-4e90-80a9-325238b16f6a"
+      Hint: Type
+      Value: "{B80D4449-4FD3-4362-B255-F68E30CBEBB8}"

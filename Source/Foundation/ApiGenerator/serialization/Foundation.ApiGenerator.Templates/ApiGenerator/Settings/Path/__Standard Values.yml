@@ -1,0 +1,21 @@
+﻿---
+ID: "b684ca54-9a75-4775-9341-4679260fd3fd"
+Parent: "cef71ccb-6fbb-4644-8ff9-db2ba249f41b"
+Template: "cef71ccb-6fbb-4644-8ff9-db2ba249f41b"
+Path: /sitecore/templates/Foundation/ApiGenerator/Settings/Path/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171201T225904Z
+    - ID: "516b8d61-b694-47ad-b8b0-80590cf9a622"
+      Hint: Title
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

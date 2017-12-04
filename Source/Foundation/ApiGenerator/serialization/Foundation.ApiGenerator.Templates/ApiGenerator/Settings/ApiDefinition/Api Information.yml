@@ -1,0 +1,18 @@
+﻿---
+ID: "7e1b9231-37db-4e0b-a1d7-c4b7f01e20e4"
+Parent: "c07ec43f-ef3a-4073-b6cd-0f3ff6eaf6f5"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/ApiGenerator/Settings/ApiDefinition/Api Information
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171129T012004Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
