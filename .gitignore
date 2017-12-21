@@ -14,3 +14,8 @@
 /Source/Foundation/ORM/code/obj/Debug
 /Source/Foundation/Search/code/obj/Debug
 /Source/libraries
+/Source/Foundation/ApiGenerator/tests/obj/Debug
+/Source/Foundation/Documentation/code/obj/Debug
+/Source/Foundation/Documentation/tests/obj/Debug
+/Source/Foundation/ORM/code/obj/Release
+/Source/Foundation/Search/code/obj/Release

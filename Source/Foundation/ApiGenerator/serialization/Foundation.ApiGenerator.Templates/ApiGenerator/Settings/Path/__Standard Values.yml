@@ -4,6 +4,13 @@ Parent: "cef71ccb-6fbb-4644-8ff9-db2ba249f41b"
 Template: "cef71ccb-6fbb-4644-8ff9-db2ba249f41b"
 Path: /sitecore/templates/Foundation/ApiGenerator/Settings/Path/__Standard Values
 DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {CEE797F3-35B2-4D9B-B71B-26893C6F4F7E}
+    {1BB0F7C7-8FD0-47D9-9540-C0A9C8BC6DEA}
 Languages:
 - Language: en
   Versions:

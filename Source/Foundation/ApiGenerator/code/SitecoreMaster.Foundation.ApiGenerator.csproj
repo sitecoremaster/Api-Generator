@@ -59,6 +59,7 @@
       <HintPath>..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" />
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
@@ -125,23 +126,39 @@
   <ItemGroup>
     <Content Include="App_Config\Include\Foundation\Foundation.ApiGenerator.Serialization.config" />
     <Content Include="App_Config\Include\Foundation\Foundation.ApiGenerator.Settings.config" />
+    <Content Include="App_Config\Include\Foundation\Foundation.ApiGenerator.Ioc.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RegisterRoutes.cs" />
     <Compile Include="Constants\Definition.cs" />
+    <Compile Include="Constants\Lookups.cs" />
     <Compile Include="Controllers\ApiGeneratorController.cs" />
+    <Compile Include="Ioc\Configurator.cs" />
+    <Compile Include="Models\Folders\IApiObjects.cs" />
+    <Compile Include="Models\Folders\ILookups.cs" />
+    <Compile Include="Models\Folders\IPaths.cs" />
+    <Compile Include="Models\Folders\IResponses.cs" />
     <Compile Include="Models\Search\BaseSearchItem.cs" />
     <Compile Include="Models\Search\DefinitionSearchItem.cs" />
+    <Compile Include="Models\Search\PathSearchItem.cs" />
     <Compile Include="Models\Settings\IDefinition.cs" />
     <Compile Include="Models\Settings\ILookupValue.cs" />
     <Compile Include="Models\Settings\IObject.cs" />
+    <Compile Include="Models\Settings\IParameter.cs" />
     <Compile Include="Models\Settings\IPath.cs" />
     <Compile Include="Models\Settings\IProperty.cs" />
+    <Compile Include="Models\Settings\IResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\DefinitionRepository.cs" />
-    <Compile Include="Repository\IDefinitionRepository.cs" />
+    <Compile Include="Repository\Interfaces\IDefinitionRepository.cs" />
+    <Compile Include="Repository\Interfaces\IPathRepository.cs" />
+    <Compile Include="Repository\PathRepository.cs" />
+    <Compile Include="Services\DefinitionService.cs" />
+    <Compile Include="Services\Interfaces\IDefinitionService.cs" />
+    <Compile Include="Services\Interfaces\IPathService.cs" />
+    <Compile Include="Services\PathService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
@@ -154,13 +171,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Services\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\ORM\code\SitecoreMaster.Foundation.ORM.csproj">
       <Project>{7307aefe-e053-4544-85ef-c425caa6b675}</Project>
       <Name>SitecoreMaster.Foundation.ORM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Search\code\SitecoreMaster.Foundation.Search.csproj">
+      <Project>{cb68e7b0-1b09-431b-b5cc-65a1363a51cc}</Project>
+      <Name>SitecoreMaster.Foundation.Search</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

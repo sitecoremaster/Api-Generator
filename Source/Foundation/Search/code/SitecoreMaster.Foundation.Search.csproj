@@ -65,6 +65,9 @@
     <Reference Include="Sitecore.ContentSearch.Linq">
       <HintPath>..\..\..\libraries\Sitecore.ContentSearch.Linq.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.ContentSearch.Linq.Lucene">
+      <HintPath>..\..\..\libraries\Sitecore.ContentSearch.Linq.Lucene.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\..\libraries\Sitecore.Kernel.dll</HintPath>
     </Reference>

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SitecoreMaster.Foundation.ApiGenerator.Models.Settings;
+using SitecoreMaster.Foundation.ApiGenerator.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -10,9 +12,11 @@ namespace SitecoreMaster.Foundation.ApiGenerator.Controllers
 {
     public class ApiGeneratorController : ApiController
     {
+        private readonly IDefinitionService _definitionService;
 
-        public ApiGeneratorController()
+        public ApiGeneratorController(IDefinitionService definitionService)
         {
+            _definitionService = definitionService;
         }
 
         [HttpGet, HttpPost, HttpPut, HttpDelete]
@@ -25,7 +29,12 @@ namespace SitecoreMaster.Foundation.ApiGenerator.Controllers
                 return NotFound();
 
             // Get Definition Information
-            
+            IDefinition definitionItem = _definitionService.GetByName(definition);
+
+            if (definitionItem != null)
+            {
+                //definitionItem.
+            }
 
             return Ok(new { Something = "true" });
         }

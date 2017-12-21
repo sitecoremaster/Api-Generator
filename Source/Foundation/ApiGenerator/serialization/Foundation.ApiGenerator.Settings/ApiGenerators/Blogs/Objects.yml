@@ -1,0 +1,14 @@
+﻿---
+ID: "7b01d23e-d589-40b7-8dd4-6bb0e0026a9c"
+Parent: "461a7e0d-720b-421e-9c0f-31478eab1af7"
+Template: "40259928-680a-4c2d-a83d-5fc83322dd47"
+Path: /sitecore/system/Settings/Foundation/ApiGenerators/Blogs/Objects
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171221T011808Z

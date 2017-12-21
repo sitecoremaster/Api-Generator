@@ -1,0 +1,23 @@
+﻿---
+ID: "09493abf-7c96-4b2c-a0df-d0a9d11edeb0"
+Parent: "cee797f3-35b2-4d9b-b71b-26893c6f4f7e"
+Template: "cee797f3-35b2-4d9b-b71b-26893c6f4f7e"
+Path: /sitecore/templates/Foundation/ApiGenerator/Folders/Responses/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{712F04E3-83D9-4400-811C-629BBC4BD267}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171221T020822Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

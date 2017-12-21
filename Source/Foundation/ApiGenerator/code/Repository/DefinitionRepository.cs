@@ -6,6 +6,9 @@ using SitecoreMaster.Foundation.ApiGenerator.Models.Settings;
 using Sitecore.ContentSearch.SearchTypes;
 using SitecoreMaster.Foundation.ApiGenerator.Models.Search;
 using Sitecore.ContentSearch.Linq;
+using SitecoreMaster.Foundation.Search.Extensions;
+using Sitecore.ContentSearch;
+using SitecoreMaster.Foundation.ApiGenerator.Repository.Interfaces;
 
 namespace SitecoreMaster.Foundation.ApiGenerator.Repository
 {
@@ -13,7 +16,14 @@ namespace SitecoreMaster.Foundation.ApiGenerator.Repository
     {
         public IEnumerable<IDefinition> GetAll()
         {
-            throw new NotImplementedException();
+            using (var context = ContentSearchManager.CreateSearchContext(new SitecoreIndexableItem(Sitecore.Context.Item)))
+            {
+                IQueryable<DefinitionSearchItem> query = context.GetQueryable<DefinitionSearchItem>();
+
+                query.Where(i => i.TemplateId == Constants.Definition.TemplateId);
+
+                return query.GenerateResults<IDefinition, DefinitionSearchItem>();
+            }
         }
 
         public IDefinition GetByName(string name)
@@ -25,18 +35,10 @@ namespace SitecoreMaster.Foundation.ApiGenerator.Repository
             {
                 IQueryable<DefinitionSearchItem> query = context.GetQueryable<DefinitionSearchItem>();
 
-                query.Where(i => i.Paths.Contains());
-
-                query.Where(i => i.TemplateId.Guid == Constants.Definition.TemplateId.Guid);
-
+                query.Where(i => i.TemplateId == Constants.Definition.TemplateId);
                 query.Where(i => i.DefinitionName == name);
 
-                SearchResults<DefinitionSearchItem> results = query.GetResults();
-
-                if (results != null && results.Any())
-                {
-                    return results.Where(i => i.Document != null).Select(i => i.Document.GetItem());
-                }
+                return query.GenerateResults<IDefinition, DefinitionSearchItem>().FirstOrDefault();
             }
         }
     }

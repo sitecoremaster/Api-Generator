@@ -1,4 +1,5 @@
 ﻿using Glass.Mapper.Sc.Configuration.Attributes;
+using SitecoreMaster.Foundation.ORM.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 namespace SitecoreMaster.Foundation.ApiGenerator.Models.Settings
 {
     [SitecoreType(TemplateId = "{CEF71CCB-6FBB-4644-8FF9-DB2BA249F41B}")]
-    public interface IPath
+    public interface IPath : IGlassBase
     {
         [SitecoreField(FieldId = "{516B8D61-B694-47AD-B8B0-80590CF9A622}")]
         string Title { get; set; }
