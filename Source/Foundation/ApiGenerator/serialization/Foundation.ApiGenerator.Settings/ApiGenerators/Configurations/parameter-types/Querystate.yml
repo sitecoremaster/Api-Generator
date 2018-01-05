@@ -1,0 +1,20 @@
+﻿---
+ID: "dc7e169e-5cf8-41cc-8723-55939902453f"
+Parent: "3df31410-edc6-4a31-8ba3-cd0815f757fd"
+Template: "a7dc8f8e-f004-46c8-9e31-b2ba852e3df3"
+Path: "/sitecore/system/Settings/Foundation/ApiGenerators/Configurations/parameter-types/Querystate"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180103T010536Z
+    - ID: "2c9e1974-f4a6-4dd1-9e7a-d3efa85ae339"
+      Hint: Key
+      Value: Querystate
+    - ID: "dd48a3bd-d48d-4109-8519-037a30a52257"
+      Hint: Value
+      Value: "{DC7E169E-5CF8-41CC-8723-55939902453F}"

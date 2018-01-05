@@ -1,0 +1,20 @@
+﻿---
+ID: "99eec6ea-64c3-4910-abc8-1be12bfa44a2"
+Parent: "3eefc645-50b0-41d6-9f46-987250d3d3c3"
+Template: "a7dc8f8e-f004-46c8-9e31-b2ba852e3df3"
+Path: /sitecore/system/Settings/Foundation/ApiGenerators/Configurations/Formats/Strings/Guid
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180104T152620Z
+    - ID: "2c9e1974-f4a6-4dd1-9e7a-d3efa85ae339"
+      Hint: Key
+      Value: Guid
+    - ID: "dd48a3bd-d48d-4109-8519-037a30a52257"
+      Hint: Value
+      Value: "{99EEC6EA-64C3-4910-ABC8-1BE12BFA44A2}"

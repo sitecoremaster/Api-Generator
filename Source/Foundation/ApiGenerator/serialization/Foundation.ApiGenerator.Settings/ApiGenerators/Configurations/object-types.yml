@@ -1,5 +1,5 @@
 ﻿---
-ID: "e020da2b-1316-401f-bfbd-65db9ee7a17d"
+ID: "8a331195-9486-4327-944c-0d2f804d4cef"
 Parent: "71c97217-4614-4641-8988-7a4624b38d3e"
 Template: "c833c58a-d3f4-4722-a4be-32ba3dfc928d"
 Path: "/sitecore/system/Settings/Foundation/ApiGenerators/Configurations/object-types"
@@ -15,4 +15,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20171129T014836Z
+      Value: 20171129T015213Z
