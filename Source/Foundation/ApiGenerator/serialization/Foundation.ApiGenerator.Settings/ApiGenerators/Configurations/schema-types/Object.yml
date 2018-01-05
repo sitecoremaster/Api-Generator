@@ -1,0 +1,20 @@
+﻿---
+ID: "8e11a2d6-188d-4853-b125-16b6f02ae67e"
+Parent: "e020da2b-1316-401f-bfbd-65db9ee7a17d"
+Template: "a7dc8f8e-f004-46c8-9e31-b2ba852e3df3"
+Path: "/sitecore/system/Settings/Foundation/ApiGenerators/Configurations/schema-types/Object"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171129T014846Z
+    - ID: "2c9e1974-f4a6-4dd1-9e7a-d3efa85ae339"
+      Hint: Key
+      Value: Object
+    - ID: "dd48a3bd-d48d-4109-8519-037a30a52257"
+      Hint: Value
+      Value: "{8E11A2D6-188D-4853-B125-16B6F02AE67E}"
