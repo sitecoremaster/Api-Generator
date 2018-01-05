@@ -2,14 +2,14 @@
 ID: "8a331195-9486-4327-944c-0d2f804d4cef"
 Parent: "71c97217-4614-4641-8988-7a4624b38d3e"
 Template: "c833c58a-d3f4-4722-a4be-32ba3dfc928d"
-Path: "/sitecore/system/Settings/Foundation/ApiGenerators/Configurations/object-types"
+Path: "/sitecore/system/Settings/Foundation/ApiGenerators/Configurations/entity-types"
 DB: master
 Languages:
 - Language: en
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Object Types
+    Value: Entity Types
   Versions:
   - Version: 1
     Fields:

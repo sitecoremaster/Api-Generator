@@ -133,12 +133,17 @@
   <ItemGroup>
     <Compile Include="App_Start\RegisterRoutes.cs" />
     <Compile Include="Constants\Settings\Definition.cs" />
+    <Compile Include="Constants\Settings\Entity.cs" />
     <Compile Include="Constants\Settings\HttpVerb.cs" />
     <Compile Include="Constants\Settings\LookupValue.cs" />
+    <Compile Include="Constants\Settings\Parameter.cs" />
     <Compile Include="Constants\Settings\Path.cs" />
+    <Compile Include="Constants\Settings\Property.cs" />
+    <Compile Include="Constants\Settings\Response.cs" />
+    <Compile Include="Constants\Settings\Tag.cs" />
     <Compile Include="Controllers\ApiGeneratorController.cs" />
     <Compile Include="Ioc\Configurator.cs" />
-    <Compile Include="Models\Folders\IApiObjects.cs" />
+    <Compile Include="Models\Folders\IEntities.cs" />
     <Compile Include="Models\Folders\ILookups.cs" />
     <Compile Include="Models\Folders\IPaths.cs" />
     <Compile Include="Models\Folders\IResponses.cs" />
@@ -149,7 +154,7 @@
     <Compile Include="Models\Settings\IDefinition.cs" />
     <Compile Include="Models\Settings\IHttpVerb.cs" />
     <Compile Include="Models\Settings\ILookupValue.cs" />
-    <Compile Include="Models\Settings\IObject.cs" />
+    <Compile Include="Models\Settings\IEntity.cs" />
     <Compile Include="Models\Settings\IParameter.cs" />
     <Compile Include="Models\Settings\IPath.cs" />
     <Compile Include="Models\Settings\IProperty.cs" />
@@ -176,6 +181,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Constants\Folders\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>

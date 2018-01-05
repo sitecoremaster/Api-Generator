@@ -1,19 +1,19 @@
 ﻿---
-ID: "51a5163b-8f95-4e90-80a9-325238b16f6a"
-Parent: "dca6234c-f094-4973-8641-49ab242a734a"
+ID: "5d061281-2ae7-48b9-a9b7-89e693eb2468"
+Parent: "8e03ef9e-4e5c-4dd5-834c-d5627d747337"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ApiGenerator/Settings/Property/Property Information/Type
+Path: /sitecore/templates/Foundation/ApiGenerator/Settings/Entity/Entity Information/EntityType
 DB: master
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: "/sitecore/system/Settings/Foundation/ApiGenerators/Configurations/object-types"
+  Value: "/sitecore/system/Settings/Foundation/ApiGenerators/Configurations/entity-types"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Droplink
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -21,4 +21,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20171129T015121Z
+      Value: 20171129T013104Z

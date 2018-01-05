@@ -1,16 +1,16 @@
 ﻿---
-ID: "8a8c8a02-51aa-4854-a4fd-257aed55371e"
+ID: "73a98460-27e2-4706-9e5a-9793f7a1ef8a"
 Parent: "8e03ef9e-4e5c-4dd5-834c-d5627d747337"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ApiGenerator/Settings/ApiObject/Object Information/Title
+Path: /sitecore/templates/Foundation/ApiGenerator/Settings/Entity/Entity Information/Required
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: Checkbox
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 50
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20171129T013104Z
+      Value: 20171129T014928Z

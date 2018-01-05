@@ -1,16 +1,16 @@
 ﻿---
-ID: "e7ee5fe2-412b-4e2a-9c9c-3aec941e9707"
+ID: "c4db74d3-676b-4a03-b550-e356b7d595b0"
 Parent: "8e03ef9e-4e5c-4dd5-834c-d5627d747337"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Foundation/ApiGenerator/Settings/ApiObject/Object Information/Example
+Path: /sitecore/templates/Foundation/ApiGenerator/Settings/Entity/Entity Information/Format
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Multi-Line Text"
+  Value: Grouped Droplink
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 400
 Languages:
 - Language: en
   Versions:

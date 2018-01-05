@@ -1,8 +1,8 @@
 ﻿---
 ID: "d18c2e06-4e20-410a-a2ca-1bbf14edf3ed"
-Parent: "ff17418a-b4e0-4e53-8d2f-159596a7de7a"
+Parent: "535a7042-c48e-4590-af6c-2b50f687e479"
 Template: "cee797f3-35b2-4d9b-b71b-26893c6f4f7e"
-Path: /sitecore/system/Settings/Foundation/ApiGenerators/Blogs/Paths/Articles List/Responses
+Path: /sitecore/system/Settings/Foundation/ApiGenerators/Blogs/Paths/Articles List/Get/Responses
 DB: master
 Languages:
 - Language: en

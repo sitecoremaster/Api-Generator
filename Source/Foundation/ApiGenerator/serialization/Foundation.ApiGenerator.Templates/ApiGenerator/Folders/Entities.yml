@@ -1,35 +1,28 @@
 ﻿---
-ID: "05ce05aa-4a15-4a49-943d-3b2699fef8dc"
-Parent: "b62b4993-1d27-4301-bf22-db87985bcf12"
+ID: "40259928-680a-4c2d-a83d-5fc83322dd47"
+Parent: "8a06d2e9-bd0f-4e37-8ed0-db37fd0fb306"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Foundation/ApiGenerator/Settings/ApiObject
+Path: /sitecore/templates/Foundation/ApiGenerator/Folders/Entities
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Apps/32x32/Objects.png
+  Value: Office/32x32/preview_package.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 200
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{2723F6B3-7FAB-4E89-9D63-E805C0F3AAEE}"
+  Value: "{EF529A66-F691-4B83-AE97-4171125A4F7C}"
 Languages:
 - Language: en
-  Fields:
-  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
-    Hint: __Display name
-    Value: Object
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20171129T012358Z
+      Value: 20171221T004728Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SitecoreMaster.Foundation.ApiGenerator.Models.Folders
 {
-    public interface IApiObjects
+    public interface IEntities
     {
     }
 }

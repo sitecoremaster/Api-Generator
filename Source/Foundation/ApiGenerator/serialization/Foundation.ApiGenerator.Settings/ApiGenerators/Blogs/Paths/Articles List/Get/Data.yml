@@ -1,0 +1,14 @@
+﻿---
+ID: "a9351e91-e1b1-4d4c-8d5d-cbfbb8abf906"
+Parent: "535a7042-c48e-4590-af6c-2b50f687e479"
+Template: "8ab8a444-6362-4557-a10c-b834879ef6d3"
+Path: /sitecore/system/Settings/Foundation/ApiGenerators/Blogs/Paths/Articles List/Get/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180105T042212Z

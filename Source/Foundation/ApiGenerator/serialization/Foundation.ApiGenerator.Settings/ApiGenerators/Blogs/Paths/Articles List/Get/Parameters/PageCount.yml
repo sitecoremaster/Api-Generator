@@ -2,7 +2,7 @@
 ID: "a2bdddc1-5cd4-46d0-b862-70f4d1b99ad5"
 Parent: "8acd6cdd-4a0f-43a0-8d77-4cd815498969"
 Template: "3d8b8df8-36c4-4060-a391-2e7a92a83bed"
-Path: /sitecore/system/Settings/Foundation/ApiGenerators/Blogs/Paths/Articles List/Parameters/PageCount
+Path: /sitecore/system/Settings/Foundation/ApiGenerators/Blogs/Paths/Articles List/Get/Parameters/PageCount
 DB: master
 Languages:
 - Language: en
