@@ -2,7 +2,7 @@
 ID: "c31021bd-b0eb-4433-9922-41787235fcb6"
 Parent: "2e779dc3-3839-4b43-b53e-6769f45e52fa"
 Template: "2e779dc3-3839-4b43-b53e-6769f45e52fa"
-Path: /sitecore/templates/Foundation/ApiGenerator/Folders/ApiGeneratorFolder/__Standard Values
+Path: /sitecore/templates/Foundation/ApiGenerator/Folders/Generators/__Standard Values
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"

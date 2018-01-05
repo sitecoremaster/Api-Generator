@@ -132,6 +132,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RegisterRoutes.cs" />
+    <Compile Include="Constants\Folders\Configurations.cs" />
+    <Compile Include="Constants\Folders\Data.cs" />
+    <Compile Include="Constants\Folders\Entities.cs" />
+    <Compile Include="Constants\Folders\Generators.cs" />
+    <Compile Include="Constants\Folders\Lookups.cs" />
+    <Compile Include="Constants\Folders\Parameters.cs" />
+    <Compile Include="Constants\Folders\Paths.cs" />
+    <Compile Include="Constants\Folders\Responses.cs" />
+    <Compile Include="Constants\Folders\Tags.cs" />
     <Compile Include="Constants\Settings\Definition.cs" />
     <Compile Include="Constants\Settings\Entity.cs" />
     <Compile Include="Constants\Settings\HttpVerb.cs" />
@@ -181,7 +190,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Constants\Folders\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
