@@ -9,7 +9,6 @@ using SitecoreMaster.Foundation.Search.Extensions;
 using Sitecore.ContentSearch;
 using Sitecore;
 using SitecoreMaster.Foundation.ApiGenerator.Models.Search;
-using Sitecore.Data;
 
 namespace SitecoreMaster.Foundation.ApiGenerator.Repository
 {
@@ -22,9 +21,7 @@ namespace SitecoreMaster.Foundation.ApiGenerator.Repository
             {
                 IQueryable<PathSearchItem> query = context.GetQueryable<PathSearchItem>();
 
-                query = query.Where(i => i.Paths.Contains(new ID(definition.ItemId)));
-                query = query.Where(i => i.TemplateId == Constants.Path.PathTemplateId);
-                query = query.Where(i => i.EndpointPath == path);
+                //query = query.Where(i => i.Paths.Contains(definition.Path));
 
                 IEnumerable<IPath> results = query.GenerateResults<IPath, PathSearchItem>();
 

@@ -132,29 +132,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RegisterRoutes.cs" />
-    <Compile Include="Constants\Settings\Definition.cs" />
-    <Compile Include="Constants\Settings\HttpVerb.cs" />
-    <Compile Include="Constants\Settings\LookupValue.cs" />
-    <Compile Include="Constants\Settings\Path.cs" />
+    <Compile Include="Constants\Definition.cs" />
+    <Compile Include="Constants\Lookups.cs" />
     <Compile Include="Controllers\ApiGeneratorController.cs" />
     <Compile Include="Ioc\Configurator.cs" />
     <Compile Include="Models\Folders\IApiObjects.cs" />
     <Compile Include="Models\Folders\ILookups.cs" />
     <Compile Include="Models\Folders\IPaths.cs" />
     <Compile Include="Models\Folders\IResponses.cs" />
-    <Compile Include="Models\Folders\ITags.cs" />
     <Compile Include="Models\Search\BaseSearchItem.cs" />
     <Compile Include="Models\Search\DefinitionSearchItem.cs" />
     <Compile Include="Models\Search\PathSearchItem.cs" />
     <Compile Include="Models\Settings\IDefinition.cs" />
-    <Compile Include="Models\Settings\IHttpVerb.cs" />
     <Compile Include="Models\Settings\ILookupValue.cs" />
     <Compile Include="Models\Settings\IObject.cs" />
     <Compile Include="Models\Settings\IParameter.cs" />
     <Compile Include="Models\Settings\IPath.cs" />
     <Compile Include="Models\Settings\IProperty.cs" />
     <Compile Include="Models\Settings\IResponse.cs" />
-    <Compile Include="Models\Settings\ITag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\DefinitionRepository.cs" />
     <Compile Include="Repository\Interfaces\IDefinitionRepository.cs" />

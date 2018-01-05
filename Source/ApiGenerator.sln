@@ -36,10 +36,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMaster.Foundation.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMaster.Foundation.Documentation.Tests", "Foundation\Documentation\tests\SitecoreMaster.Foundation.Documentation.Tests.csproj", "{FCF027E9-93EA-43A0-9EA0-A9C5BFCAD0FC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C18786B9-9B38-49D3-96C6-E3B33AB51736}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMaster.Foundation.Common", "Foundation\Common\SitecoreMaster.Foundation.Common\SitecoreMaster.Foundation.Common.csproj", "{637AD33D-5248-45B6-A54F-C182B7796B5E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,10 +70,6 @@ Global
 		{FCF027E9-93EA-43A0-9EA0-A9C5BFCAD0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCF027E9-93EA-43A0-9EA0-A9C5BFCAD0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCF027E9-93EA-43A0-9EA0-A9C5BFCAD0FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{637AD33D-5248-45B6-A54F-C182B7796B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{637AD33D-5248-45B6-A54F-C182B7796B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{637AD33D-5248-45B6-A54F-C182B7796B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{637AD33D-5248-45B6-A54F-C182B7796B5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,7 +87,5 @@ Global
 		{76D6EEF1-D78F-454B-BEC7-B62ED7F13BD9} = {E61E8535-96BC-4CAD-B3D8-245C4086E1BA}
 		{4C8AB386-3634-45A4-ABD2-68777A9AB5E0} = {76D6EEF1-D78F-454B-BEC7-B62ED7F13BD9}
 		{FCF027E9-93EA-43A0-9EA0-A9C5BFCAD0FC} = {76D6EEF1-D78F-454B-BEC7-B62ED7F13BD9}
-		{C18786B9-9B38-49D3-96C6-E3B33AB51736} = {E61E8535-96BC-4CAD-B3D8-245C4086E1BA}
-		{637AD33D-5248-45B6-A54F-C182B7796B5E} = {C18786B9-9B38-49D3-96C6-E3B33AB51736}
 	EndGlobalSection
 EndGlobal

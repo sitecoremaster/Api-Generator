@@ -12,9 +12,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20171129T015152Z
-    - ID: "3843bb2c-6304-4a7e-b638-02f2a264fe52"
-      Hint: Title
-      Value: $name
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

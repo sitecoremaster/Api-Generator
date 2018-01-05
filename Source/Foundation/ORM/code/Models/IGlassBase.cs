@@ -9,9 +9,6 @@ namespace SitecoreMaster.Foundation.ORM.Models
 {
     public interface IGlassBase
     {
-        [SitecoreId]
-        Guid ItemId { get; set; }
-
         [SitecoreInfo(SitecoreInfoType.Name)]
         string ItemName { get; set; }
 

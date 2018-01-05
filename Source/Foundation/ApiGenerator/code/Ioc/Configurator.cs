@@ -1,9 +1,11 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using Sitecore.DependencyInjection;
-using SitecoreMaster.Foundation.ApiGenerator.Repository;
+﻿using Sitecore.DependencyInjection;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using Microsoft.Extensions.DependencyInjection;
 using SitecoreMaster.Foundation.ApiGenerator.Repository.Interfaces;
-using SitecoreMaster.Foundation.ApiGenerator.Services;
-using SitecoreMaster.Foundation.ApiGenerator.Services.Interfaces;
+using SitecoreMaster.Foundation.ApiGenerator.Repository;
 
 namespace SitecoreMaster.Foundation.ApiGenerator.Ioc
 {
@@ -11,13 +13,7 @@ namespace SitecoreMaster.Foundation.ApiGenerator.Ioc
     {
         public void Configure(IServiceCollection serviceCollection)
         {
-            // Repository
-            serviceCollection.AddTransient<IDefinitionRepository, DefinitionRepository>();
-            serviceCollection.AddTransient<IPathRepository, PathRepository>();
-
-            // Services
-            serviceCollection.AddTransient<IDefinitionService, DefinitionService>();
-            serviceCollection.AddTransient<IPathService, PathService>();
+            //serviceCollection.AddTransient<
         }
     }
 }
